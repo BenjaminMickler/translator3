@@ -199,7 +199,7 @@ if __name__ == "__main__":
 """
 if name != None:
     os.makedirs(name, exist_ok=True)
-    with open(os.path.join(name, "translate.py"), "w") as f:
+    with open(os.path.join(name, "translator3.py"), "w") as f:
         f.write(tc)
 else:
     with open("translator3.py", "w") as f:
